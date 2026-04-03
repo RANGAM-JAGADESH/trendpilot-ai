@@ -23,9 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ns0e%-wsjh%r9lru46jwmg^zpj&sy8*c4$jel7trtp97t+6#^-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "trendpilot-backend.onrender.com",
+    "127.0.0.1",
+    "localhost",
+]
 
 
 # Application definition
